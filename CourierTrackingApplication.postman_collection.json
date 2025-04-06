@@ -1,0 +1,50 @@
+{
+	"info": {
+		"_postman_id": "dac37f94-828f-431e-ad7b-b71a02ca4210",
+		"name": "CourierTrackingApplication",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "13485768"
+	},
+	"item": [
+		{
+			"name": "LogCourier",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/courier-tracking/log-location",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"courier-tracking",
+						"log-location"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CalculateTotalDistance",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/courier-tracking/calculate-total-distance",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"courier-tracking",
+						"calculate-total-distance"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
