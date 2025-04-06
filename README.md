@@ -66,4 +66,4 @@ Bu proje, bir kuryenin konum bilgilerinin takip edilmesini sağlayan basit bir S
 
 Tarayıcıdan veya Postman üzerinden API'leri test edilebilir.
 
-Örnek API istekleri ekte Postman Collection klasörünün altında listelenmiştir.
+Örnek API istekleri ekte CourierTrackingApplication.postman_collection.json dosyasında listelenmiştir.
